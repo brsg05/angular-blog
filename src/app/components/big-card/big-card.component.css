@@ -1,13 +1,14 @@
 .container__big-card{
     margin-left: 20px;
     margin-right: 20px;
-    width: 400px;
+    width: 600px;
     height: 500px;
-
+    /* border: 2px solid white; */
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
+    
 
 }
 
@@ -24,9 +25,15 @@
     color: grey;
 }
 
+.big-card__picture{
+    width: 600px;
+    height: 350px;
+    border: 2px solid white;
+}
+
 .big-card__picture > img {
     width: 100%;
-    min-width: 400px;
-    max-height: 200px;
+    max-height: 100%;
+    
     
 }
