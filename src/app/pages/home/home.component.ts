@@ -11,6 +11,7 @@ import { MenuBarComponent } from '../../components/menu-bar/menu-bar.component';
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css']
 })
+
 export class HomeComponent {
   
 }
