@@ -7,7 +7,7 @@ import { MenuBarComponent } from '../../components/menu-bar/menu-bar.component';
 
 @Component({
   selector: 'app-home',
-  imports: [SmallCardComponent, BigCardComponent, MenuTitleComponent, MenuBarComponent],
+  imports: [SmallCardComponent, BigCardComponent, MenuTitleComponent],
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css']
 })

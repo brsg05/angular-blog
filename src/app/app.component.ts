@@ -11,7 +11,7 @@ import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-root',
-  imports: [HomeComponent, ContentComponent, RouterModule,MenuBarComponent ],
+  imports: [RouterModule,MenuBarComponent ],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
